@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+
+section{
+    width: 98vw;
+    height: 100%;
+    margin-inline: auto;
+    background-color: red; 
+   
+}
+section > header{
+    max-width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logo{
+    display: flex;
+    font-size: 1.5rem;
+}
+.k{
+    border:  2px solid rgb(77, 74, 70);
+    border-radius: 50%;
+    background-color: wheat;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: rgb(6, 7, 7);
+    position: relative;
+    left: 3rem;
+   
+}
+
+.logo > p {
+    text-align: center;
+   position: relative;
+   left: 4rem;
+}
+.ancho  a{
+   padding: 1rem;
+   text-decoration: none;
+   text-transform: capitalize;
+   position: relative;
+   right: 3rem;
+   color: black;
+   font-size: 1.5rem;
+}
+.ancho > .fas{
+position: relative;
+right:3rem ;
+}
+section > nav {
+    max-width: 100%;
+    height: 65vh;
+    background-color: rebeccapurple;
+    display: flex;
+}
+nav > .bag {
+   width: 65%;
+    height: 100%;
+    background-image:linear-gradient(to bottom, rgb(3, 3, 3, 0.747),  rgb(0, 0, 0, 0.849)), url("./media/ex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0, 2);
+}
+.bag > .items {
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+}
+.bag > .items > .item {
+    display: flex;
+    
+}
+.items > .item > div{
+    width: 10px;
+    height: 3.5rem;
+    
+    background-color: rgb(230, 167, 198);
+}
+.items > .item >h1{
+    position: relative;
+    left: 1rem;
+    font-size: 3rem;
+    color: rgb(230, 167, 198);
+    font-family: 'Times New Roman',;
+}
+.items > p{
+    position: relative;
+    top: 2.5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.items  > .view {
+    width: 30%;
+    position: relative;
+    top: 5rem;
+    border-radius: 20%;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 167, 198);
+}
+nav > .bag-2{
+    background-color: rgb(230, 167, 198);
+    padding: 2rem;
+    width:35% ;
+}
+nav > .bag-2 > h1{
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    left: 1rem;
+}
+nav > .bag-2 > .icon{
+    display: flex;
+    padding: 1rem;
+}
+nav > .bag-2 > .icon > div{
+    padding: 0.5rem;
+}
+.bag-2 > .icon > .fab{
+    color: whitesmoke;
+    padding: 0.5rem;
+}
+.bag-2 > .icon > .fas{
+      color: whitesmoke;
+      padding: 0.5rem;
+}
+.bag-2 > .icon > div >h3{
+    color: black;
+}
+.bag-2 > .icon > div> p{
+     color: whitesmoke;
+}
+section > main{
+    max-width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:white
+}
+main > .man-1 {
+    text-align: center;
+
+}
+main > .man-1 > h1 {
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    left: 5rem;
+}
+main > .man-2 {
+    font-size: 1.5rem;
+    position: relative;
+    right: 6rem;
+    border: 2px solid  rgb(230, 167, 198) ;
+    color: rgb(230, 167, 198);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+section > article {
+   max-width: 100%;
+    height: 75vh;
+    background-color:rgb(233, 225, 225);
+    display: flex;
+}
+section > article > .art-1{
+    width: 30%;
+    height: 100%;
+    background-image:linear-gradient(to bottom, rgb(3, 3, 3, 0.747),  rgb(0, 0, 0, 0.849)), url("./media/ex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background: rgba(0 0 0 0 2.9);
+}
+section > article > .art-2 {
+    width: 70%;
+    height: 100%;
+    background-color:rgb(241, 236, 236);
+ 
+}
+section > article > .art-2 > .art-3{
+    width: 100%;
+    height: 80%;
+    padding: 2rem;
+}
+article > .art-2 >.art-3 >h1{
+ font-size: 2rem;
+ padding: 1rem;
+}
+article > .art-2 >.art-3 >hr{
+    width: 8%;
+    height: 6px;
+    position: relative;
+    left:5rem;
+   background-color:  rgb(230, 167, 198);
+}
+article > .art-2 >.art-3 >.art-4{
+    display: flex;
+    width:  100%;
+    height: 40%;
+    gap: 6rem;
+   padding:2rem;
+
+   
+}
+.art-3 >.art-4 > .pen-1{
+    font-size: 1.1rem;
+    color: black;
+}
+.art-3 >.art-4 > .pen-2{
+    font-size: 1.1rem;
+    color: black;
+}
+.art-3 > .art-5{
+    display: flex;
+   gap :6rem;
+    padding: 2rem;
+  
+}
+.art-3 > .art-5 >.pen-3{
+   
+    font-size: 1.1rem;
+    color: black;
+}
+.art-3 > .art-5 > .pen-4{
+   text-align: center;
+    font-size: 1.5rem;
+    border: 4px solid black;
+    color: black;
+    padding: 1rem
+
+}
+.art-2 > .art-las{
+    width: 100%;
+    height: 20%;
+    background-color:green;
+    display: flex;
+    
+    
+}
+.art-2 > .art-las >.last-1{
+    text-align: center;
+    width:50%;
+    background-color: rgb(230, 167, 198);
+    color: black;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+.art-2 > .art-las >.last-2{
+    text-align: center;
+    width:50%;
+    background-color: rgb(19, 22, 21);
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+section > .article-2{
+    max-width: 100%;
+    height: 85vh;
+    background-color: rgb(245, 236, 224);
+    padding: 1rem;
+}
+.article-2 > hr{
+    width: 70px;
+    height: 7px;
+    position: relative;
+    left: 45%;
+    background-color: rgb(230, 167, 198);
+    color: rgb(230, 167, 198);
+}
+
+section > .article-2 >h1{
+    text-align: center;
+    font-size: 2rem;
+}
+section > .article-2 > .inner{
+    margin: 3rem 3rem 3rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 3rem;
+}
+.article-2 > .inner> .inner-1{
+    position: relative;
+    left: 5rem;
+   
+}
+.article-2 > .inner> .inner-3{
+    position: relative;
+    right: 5rem;
+}
+ .img{
+    padding: 1rem;
+}
+.in{
+    padding: 0.5rem;
+    border: 1px solid rgb(88, 87, 87);
+    height: 80%;
+}
+.in >p{
+    position: relative;
+    top: 1.5rem;
+    color: rgb(59, 59, 59);
+}
+.in > .in-1{
+    border: 2px solid rgb(8, 8, 8);
+    position: relative;
+    top: 4rem;
+    width: 50%;
+    font-size: 0.8rem;
+}
+.article-2 > .view{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    top: 2rem;
+    font-weight: bolder;
+}
+section > .article-3 {
+    max-width: 100%;
+    height: 80vh;
+    background-color:  rgb(245, 236, 224);
+    display: flex;
+}
+section > .article-3 > .vid {
+    width: 30vw;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgb(53, 52, 52);
+}
+.article-3 > .vid > .vid-1{
+    position: relative;
+    top: 2rem;
+}
+.article-3 > .vid > .vid-1 >h1{
+    font-size: 2rem;
+    color: aliceblue;
+    padding: 2rem;
+}
+.article-3 > .vid > .vid-1 >p{
+    position: relative;
+    top: 2rem;
+    font-size: 1.1rem;
+    color: aliceblue;
+    padding: 0.5rem;
+}
+.article-3 > .vid > .vid-1> div{
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border: 2px solid  rgb(230, 167, 198);
+    width: 35%;
+    position: relative;
+    top: 5rem;
+    font-size: 1.1rem;
+    color:  rgb(230, 167, 198);
+    font-weight: bolder;
+}
+.article-3 > .vido{
+width: 70%;
+height: 80vh;
+background-color: rgb(204, 248, 222);
+}
+.vido > video{
+    width: 100%;
+    height: 80%;
+}
+.vido > .value{
+    display: flex;
+    width: 100%;
+    height:20.2% ;
+    background-color: cadetblue;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.value > .value-1{
+    width: 50%;
+    background-color: rgb(230, 167, 198);
+    padding: 1rem;
+}
+.value > .value-1 > h2 {
+    font-size: 2rem;
+    color: black;
+    
+
+}
+.value > .value-1 > p{
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem;
+}
+.value > .value-2{
+    width: 50%;
+    background-color:whitesmoke;
+    padding: 1rem;
+
+}
+.value > .value-2 >div{
+    justify-content: center;
+    font-size: 1rem;
+    border: 3.5px solid black;
+    padding: 1rem; 
+    width: 60%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 4rem;
+}
+section > form{
+    max-width: 100%;
+    height: 85vh;
+    background-color: rgb(245, 236, 224);
+    display: flex;
+    padding: 1rem   ;
+}
+
+section > form > .open{
+    width: 35%;
+    height: 100%;
+    padding: 2rem;
+}
+
+form > .open > div > h1{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem;
+}
+form > .open > div > hr{
+    width: 60px;
+    height: 7px;
+    background-color: rgb(211, 151, 79);
+    color:rgb(211, 151, 79);
+    position: relative;
+    left: 1rem;
+}
+form > .open > div > P {
+
+ font-size: 1.5rem;
+    color: rgb(53, 50, 50);
+    padding: 1rem;
+}
+form > .open > div > .end{
+    width: 40%;
+    text-align: center;
+font-size: 1rem;
+    color: rgb(128, 11, 151);
+    padding: 1rem;
+    border: 3px solid  rgb(178, 127, 189);
+    font-weight: bolder;
+   position: relative;
+    top: 2rem;
+
+}
+section > form > .close{
+    width: 60%;
+    height: 80%;
+    background-color:white;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+
+   
+}
+form > .close > .hr {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.close > .low > .hr {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.close > .low >p{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: rgb(172, 175, 179);
+    text-align: justify;
+    
+}
+.close > .low > .hr > .fas{
+    color: rgb(238, 192, 248);
+}
+.close > .hr >.plus{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.close > .hr >.fas{
+    color: rgb(233, 179, 245);
+}
+section > .test-container{
+  max-width: 100%;
+    height: 85vh;
+    background-color: rgb(245, 236, 224);
+    padding: 2rem;
+}
+section > .test-container > h1{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ .test-container > hr {
+     width: 70px;
+    height: 7px;
+    position: relative;
+    left: 45%;
+    top: 0.5rem;
+    background-color:  rgb(233, 179, 245);
+    color: rgb(233, 179, 245);
+ 
+}
+.test-container > .stars{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    top: 5rem;
+}
+.test-container > .stars > .star{
+    width: 22vw;
+    height: 50vh;
+    padding: 1rem;
+    background-color: white
+}
+ .stars > .star >.fas {
+    color: rgb(191, 138, 240);
+padding: 1rem;
+ }
+ .stars > .star > p{
+    text-align:justify;
+    font-size:1.1rem;
+    padding: 1rem;
+ }.stars > .star > h3{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: black;
+ }
+ section > .change{
+     width: 100%;
+    height: 65vh;
+    background-color: rgb(245, 236, 224);
+    padding: 2rem;
+ }
+ .change  >.icon-last-1{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    gap: 3rem;
+ }
+  .change  > .icon-last-1 > .fab{
+    color: rgb(109, 103, 103);
+     
+  }
+  section > footer {
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(245, 236, 224);
+    display: flex;
+    
+  }
+  section > footer >.left {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(233, 179, 245);
+    padding: 3rem;
+}
+.left > hr{
+width: 10%;
+height: 5px;
+position: relative;
+top: 2rem;
+background-color: black;
+border-radius: 10%;
+}
+.left > .hy > h1{
+    position: relative;
+    top: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+
+ footer >.left > .form-left{
+    display: flex;
+    gap: 4rem;
+    position: relative;
+    top: 5rem;
+  
+ }
+ .left > .form-left > input{
+    width: 40%;
+    height: 50px;
+ }
+ .left > .inp {
+    position: relative;
+    top: 9rem;
+ }
+ .left > .inp > input{
+    width: 90%;
+    height: 100px;
+ }
+ .left > .inpu{
+    width: 25%;
+    position: relative;
+    top: 12rem;
+    left: 65%;
+    border: 3px solid white;
+    color: aliceblue;
+    padding: 0.5rem;
+    text-align: center;
+ }
+ .left > .inpu > input{
+    padding: 1rem;
+ }
+ .form-left > .label{
+    display: none;
+ }
+ section > footer >.right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(245, 236, 224);
+}
+footer >.right >.right-1{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    padding: 2rem;
+}
+.right-1 > .fab {
+    color: white
+}
+
+.right >.right-2 {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
